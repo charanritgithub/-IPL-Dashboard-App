@@ -1,0 +1,103 @@
+/* Write your CSS here */
+.latest-match-card-container {
+  margin-top: 20px;
+  width: 100%;
+}
+.latest-card-heading {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.latest-card-match {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 15px 10px 15px;
+  background-color: #1e293b;
+  border-radius: 5px;
+}
+@media screen and (min-width: 768px) {
+  .latest-card-match {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.latest-card-match-logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .latest-card-match-logo-container {
+    width: 60%;
+  }
+}
+.latest-match-card-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Bree serif';
+  color: #ffffff;
+  width: 80%;
+}
+@media screen and (min-width: 768px) {
+  .latest-match-card-details {
+    width: 100%;
+  }
+}
+.compition-team-name {
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.team-logo {
+  height: 60px;
+  width: 60px;
+}
+.latest-match-detals-info {
+  width: 100%;
+  padding-right: 16px;
+  padding-left: 16px;
+  margin-top: 20px;
+}
+@media screen and (min-width: 767px) {
+  .latest-match-detals-info {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 768px) {
+  .latest-match-detals-info {
+    text-align: right;
+    padding-left: 0px;
+    padding-right: 16px;
+    width: 32%;
+  }
+}
+@media screen and (min-width: 767px) {
+  .latest-match-item {
+    width: 43%;
+    border: 0.5px solid #ffffff;
+    border-radius: 25px;
+    padding: 8px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    min-height: 100px;
+    min-width: 200px;
+  }
+}
+.latest-match-details-label {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: Bree Serif;
+}
+.latest-match-details-value {
+  color: #ffffff;
+  font-size: 12px;
+  font-family: Bree Serif;
+}
